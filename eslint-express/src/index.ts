@@ -9,10 +9,12 @@ app.get("/", (req, res) => {
 });
 
 function withSpace (x: number) {
-  console.log(x)
+  console.log(x);
 }
 
-withSpace(1)
+withSpace(1);
 
 //npm init @eslint/config@latest
 //npx eslint . --fix
+//yarn add --dev --exact prettier
+//npx prettier . --write
